@@ -1,0 +1,50 @@
+import javax.validation.Constraint;
+import javax.validation.Payload;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target({ElementType.FIELD, ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = TeamLeadValidator.class)
+public @interface TeamLeadStartsWithCapital {
+
+    String message() default "Team lead must start with a capital letter";
+
+    Class<?>[] groups() default {};
+
+    Class<? extends Payload>[] payload() default {};
+}
+java
+Copy code
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class TeamLeadValidator implements ConstraintValidator<TeamLeadStartsWithCapital, String> {
+
+    @Override
+    public void initialize(TeamLeadStartsWithCapital constraintAnnotation) {
+    }
+
+    @Override
+    public boolean isValid(String value, ConstraintValidatorContext context) {
+        return value != null && !value.isEmpty() && Character.isUpperCase(value.charAt(0));
+    }
+}
+Now, you can use this custom validation annotation in your Team entity:
+
+java
+Copy code
+// ... other imports
+
+@Entity
+public class Team {
+
+    // ... other fields
+
+    @TeamLeadStartsWithCapital
+    private String teamLead;
+
+    // ... other methods
+}

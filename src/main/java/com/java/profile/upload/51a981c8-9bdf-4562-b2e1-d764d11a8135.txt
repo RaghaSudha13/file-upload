@@ -1,0 +1,169 @@
+madhavi:
+validations
+pendings: micro services, docker, kubernities -35hrs
+
+vijayalakshmi:
+itext listner-1hr
+cucumber framework -20hrs
+
+
+harika
+spring boot crud operations -2hrs
+kubernities - 5hrs
+
+sekhar
+crud operations 
+service folder
+pendings : docker and kubernities
+
+naga sai:
+opps react js -10hrs
+type script -4days
+
+ayyappa:
+spring boot activacror - 3hrs
+pendings: micro services, docker, kubernities -25hrs
+
+
+vamsi:
+spring boot crud operations-2hrs
+docker and kubernities-12hrs
+
+
+sunil":
+spring boot auto configuration activators
+20 points micro services, docker, kubernities -20hrs
+
+manasa
+springboot 
+folder structure -6hrs
+total -16hrs
+points micro services, docker, kubernities -48hrs
+
+
+reshma:
+crud operations 
+kubernities -8hrs
+
+
+sukanya:
+crud operations -3hrs
+points micro services, docker, kubernities -40hrs
+
+
+srvanthi:
+crud operations -2hrs
+docker, kubernities-24hrs
+
+
+mallika:
+crud operations and validations and exception and error handlings
+20 points micro services, docker, kubernities -40hrs
+
+karimulla
+file upload 
+spring batch remote partition-10hrs
+
+harshitha:
+token based authentication role based -5hrs
+
+ram:
+searching and sorting 
+sort and pagination -3hrs
+
+
+gnani:
+spring batch data of 2lakhs 
+deploying of jerkins and ec2 
+
+
+ram:
+token and authorization and authentication
+batch application
+
+karima
+search -2hrs
+
+
+bhavani:
+smtp same text 
+smtp using attachment -3hrs
+
+
+divya:
+smtp:
+attachment
+
+anil:
+pdf invoice 
+
+eesa:
+excel and download -3hrs
+remote partition 
+
+anand:
+export poi
+download excel 2hrs
+
+prudhvi:
+clasifiction with cnn
+
+lokesh:
+transform learning
+nlp-68 70hrs
+model
+hidden layer 
+
+preethi:
+german doctor review pre train model -5hrs
+base line , convolutional model
+
+shiva:
+neural nettwork regression and linear
+neural network 	
+
+chaitanya:
+learnings mild stone 
+pendings time series -40hrs
+
+
+nandini:
+insert and update and find
+
+navya:
+apis for employee get post and delete
+
+indraja 
+streams and for each jdbc hiberna 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
